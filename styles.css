@@ -23,7 +23,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 1204px;
     padding-left: 70px;
 }
 .intro div{
@@ -72,6 +72,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: fit-content;
 }
 
+.divcaptain{
+    width: 100px;
+}
+
 .captain{
     object-fit: cover;
     flex: 1 1 auto;
@@ -113,11 +117,11 @@ button{
 .attack123{
     width: 200px;
     height: 200px;
-    padding-left: 100px;
-    padding-right: 100px;
     flex: 1 1 auto;
     border-radius: 5px;
     border: 3px solid #0f4ca2;
     border-width: 3px;
     border-image-width: auto;
+
+    align-items: center;
 }
