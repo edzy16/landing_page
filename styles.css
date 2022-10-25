@@ -15,41 +15,63 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .header{
     background-color: #1f2937;
     width: 100%;
-    height: 600px;
+    height: 450px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+}
+.intro div{
+    flex: 1 1 auto;
 }
 .main-text{
     color: #f9faf8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
 
 }
 .secondary-text{
     font-size: 18px;
     color: #f9faf8;
     padding-top: 5px;
-    width: 50%;
+}
+.navbar{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.navbar div{
+    flex: 1 1 auto;
+}
+.navbar .nav-links{
+    padding-left: 970px;
 }
 .logo{
     width: 100px;
     height: 100px;
 }
+
 .nav-links a{
     color: #f9faf8;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
     padding: 5px;
-}
-.item{
     display: inline-block;
     margin: 0;
-    padding-left: 726px;
+    width: fit-content;
 }
+
 .captain{
     object-fit: cover;
     flex: 1 1 auto;
-    max-width: 300px;
-    height: 50%;
-    padding-left: 500px;
+    width: 300px;
+    height: 300px;
     padding-top: 0;
+}
+
+.content{
+    width: 50%;
 }
