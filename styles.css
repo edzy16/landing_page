@@ -105,12 +105,15 @@ button{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .info-heading{
     color: #1f2937;
     font-size: 36px;
     font-weight: bold;
-    padding-left: 500px;
+    text-align: center;
     flex: 1 1 auto;
 }
 
